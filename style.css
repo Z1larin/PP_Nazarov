@@ -27,7 +27,7 @@ header{
     justify-content: space-between;
 }
 .header__logo{
-    background-image: url(./icons/Logo.svg);
+    background-image: url(/icons/Logo.svg);
     width: 455px;
     height: 145px;
 }
@@ -59,6 +59,7 @@ li{
     padding-top: 35px;
     color: #7E7E7E;
    font-size: 21px;
+   cursor: pointer;
 }
 ::placeholder {
     color: #7E7E7E;
@@ -608,16 +609,13 @@ footer{
     transition: 0.3s ease;
 }
 .card:hover{
-    scale: 120%;
+    scale: 1.2;
 }
 .card__brend{
     transition: 0.3s ease;
 }
 .card__brend:hover{
-    scale: 110%;
-}
-.favorites__img:hover{
-    fill: #0550A9 remove ;
+    scale: 1.1;
 }
 .anchors{
     text-decoration: none;
@@ -628,6 +626,17 @@ footer{
 }
 .img__search{
     cursor: pointer;
+}
+@media(max-width:1440px){
+    .menubar{
+        width: 1440px;
+    }
+    .slider__item:nth-child(3){
+        display: none;
+    }
+    .stock__slider{
+        justify-content: space-around;
+    }
 }
 @media(max-width: 1024px){
     .wrapper{
@@ -650,7 +659,7 @@ footer{
         width: 648px;
     }
     .main__search{
-        justify-content: space-between;
+        justify-content: space-around;
     }
     .menubar{
         width: 100%;
@@ -740,9 +749,9 @@ footer{
         margin-left: 25px;
      }
 }
-@media(max-width: 320px){
+@media(max-width: 726px){
     .wrapper{
-        max-width: 320px;
+        max-width: 726px;
         text-align: center;
         margin: 0 auto;
     }
@@ -756,6 +765,7 @@ footer{
         position: relative;
         z-index:2;
         overflow: hidden;
+        cursor: pointer;
     }
     .menu-btn span {
         width: 30px;
@@ -776,7 +786,7 @@ footer{
     .header__logo{
         width: 120px;
         height: 25px;
-        background-image: url(./icons/Лого\ для\ телефона.svg);
+        background-image: url(./icons/Логодлятелефона.svg);
         background-repeat: no-repeat;
     }
     .main__input{
