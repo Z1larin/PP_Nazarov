@@ -27,7 +27,7 @@ header{
     justify-content: space-between;
 }
 .header__logo{
-    background-image: url(/icons/Logo.svg);
+    background-image: url(./icons/Logo.svg);
     width: 455px;
     height: 145px;
 }
@@ -788,6 +788,7 @@ footer{
         height: 25px;
         background-image: url(./icons/Логодлятелефона.svg);
         background-repeat: no-repeat;
+        cursor: pointer;
     }
     .main__input{
         width: 190px;
