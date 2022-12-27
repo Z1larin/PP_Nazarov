@@ -1,0 +1,347 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css">
+    <script src="./assets/js/script.js" defer></script>
+</head>
+<body>
+    <div class="wrapper">
+        <header>
+            <div alt="logo" class="header__logo"></div>
+            <ul class="nav__link">
+                <li style="margin-right: 26px; cursor: pointer;"><img class="img__link" src="./icons/Регистрация.png" alt=""><a href="#" class="link__text">РЕГИСТРАЦИЯ</a></li>
+                <li style="margin-right: 26px; cursor: pointer;"><img class="img__link" src="./icons/Карта.png" alt=""><a href="#" class="link__text">КАРТА</a></li>
+                <li style="margin-right: 26px; cursor: pointer;"><img class="img__link" src="./icons/Корзина.png" alt=""><a href="#" class="link__text">КОРЗИНА</a></li>
+                <li style="cursor: pointer;"><img class="img__link" src="./icons/Избранное.png" alt=""><a href="#" class="link__text">ИЗБРАННОЕ</a></li>
+            </ul>
+            <div class="menu-btn">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </header>
+        <main>
+            <div class="main__search">
+                <input type="text" placeholder="Поиск" class="main__input">
+                <button class="button__search">
+                    <img src="./icons/Лупа.png" alt="search" class="img__search">
+                    <a href="#" class="text__search">Найти</a>
+                </button>
+            </div>
+            <div class="menubar">
+                <ul class="main__bar">
+                    <li class="menubar__link"><a class="anchors" href="#stock">Акции</a> </li>
+                    <li class="menubar__link"><a class="anchors" href="#news">Новости</a> </li>
+                    <li class="menubar__link"><a class="anchors" href="#recommendations">Рекомендации</a> </li>
+                    <li class="menubar__link"><a class="anchors" href="#work">Устроиться на работу</a></li>
+                </ul>
+            </div>
+            <div class="stock">
+                <div class="title__stock">
+                    <h1 id="stock" class="title__text">АКЦИИ</h1>
+                    <div class="button__arrow">
+                        <img src="./icons/Стрелка.png" alt="" class="arrow">
+                        <img src="./icons/Белая стрлека.png" alt="" class="arrow__white">
+                    </div>
+                </div>
+                <div class="stock__slider">
+                    <div class="slider__item">
+                        <img src="./img/Ребёнок.png" alt="" class="clider__img">
+                        <p class="slider__text">Благотворительный проект «Чистый опыт» БФ «Детский мир» совместно с брендом Meine Liebe</p>
+                        <button class="slider__button">Смотреть</button>
+                    </div>
+                    <div class="slider__item">
+                        <img src="./img/Карта.png" alt="" class="clider__img">
+                        <p class="slider__text">Все бонусы по одной карте !</p>
+                        <button class="slider__button">Смотреть</button>
+                    </div>
+                    <div class="slider__item">
+                        <img src="./img/Каляска.png" alt="" class="clider__img">
+                        <p class="slider__text">До -45% на коляски для кукол Demi <br> Star</p>
+                        <button class="slider__button">Смотреть</button>
+                    </div>
+                </div>
+                <div class="button__stock">
+                    <div class="button__arrow-left">
+                        <img src="./icons/Стрелка в лево.png" alt="" class="button__stock-left">
+                    </div>
+                    <div class="choose__element">
+                        <button class="element"></button>
+                        <button class="element"></button>
+                        <button class="element"></button>
+                    </div>
+                    <div class="button__arrow-right">
+                        <img src="./icons/Стрелка в право.png" alt="" class="button__stock-right">
+                    </div>
+                </div>
+            </div>
+            <div class="main__news">
+                <h1 id="news" class="title__news">НОВОСТИ</h1>
+                <div class="news">
+                    <div class="new">
+                        <div class="data__news">
+                            <p class="data">15.03.22</p>
+                        </div>
+                        <div class="new__text">
+                            <p class="news__description">Новая упаковка детских каш Procereals от Nutrilak</p>
+                        </div>
+                    </div>
+                    <div class="new">
+                        <div class="data__news">
+                            <p class="data">11.04.22</p>
+                        </div>
+                        <div class="new__text">
+                            <p class="news__description">Итоги промо «Большооой розыгрыш призов для покупателей книг «МОЗАИКА kids» в «Детском мире»</p>
+                        </div>
+                    </div>
+                    <div class="new">
+                        <div class="data__news">
+                            <p class="data">24.05.22</p>
+                        </div>
+                        <div class="new__text">
+                            <p class="news__description">Встречайте новое поколение трусиков Huggies Elite Soft</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="main__recommendations">
+                <h1 id="recommendations" class="title__recommendations">РЕКОМЕНДАЦИИ</h1>
+            </div>
+            <div class="recommendations">
+                <div class="button__recommendations-arrow-left">
+                    <img src="./icons/Стрелка в лево.png" alt="" class="button__recommendations-left">
+                </div>
+                <div class="contant__recommendations">
+                    <div class="card">
+                        <div class="discont__favorites">
+                            <div class="card__discount">
+                                <p class="discount">-39%</p>
+                            </div>
+                            <div class="favorites">
+                                <img src="./icons/Избранное2.svg" alt="" class="favorites__img">
+                            </div>
+                        </div>
+                        <img src="./img/Комбинезон.png" alt="" class="product__img">
+                        <p class="text__product">Комбинезон Bambinizon 80</p>
+                        <div class="price__product">
+                            <div class="price">
+                                <p class="new__price">2 135 ₽</p>
+                                <p class="old__price">3 500 ₽</p>
+                            </div>
+                            <div class="add__basket">
+                                <img src="./icons/Корзина2.png" alt="" class="basket__img">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="discont__favorites">
+                            <div class="card__discount">
+                                <p class="discount">-50%</p>
+                            </div>
+                            <div class="favorites">
+                                <img src="./icons/Избранное2.svg" alt="" class="favorites__img">
+                            </div>
+                        </div>
+                        <img src="./img/Игрушка.png" alt="" class="product__img">
+                        <p class="text__product">Подушка-игрушка Dormeo Сова с пледом Йу-Ху</p>
+                        <div class="price__product">
+                            <div class="price">
+                                <p class="new__price">1 000 ₽</p>
+                                <p class="old__price">2 000 ₽</p>
+                            </div>
+                            <div class="add__basket">
+                                <img src="./icons/Корзина2.png" alt="" class="basket__img">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="discont__favorites">
+                            <div class="card__discount">
+                                <p class="discount">-20%</p>
+                            </div>
+                            <div class="favorites">
+                                <img src="./icons/Избранное2.svg" alt="" class="favorites__img">
+                            </div>
+                        </div>
+                        <img src="./img/Молочко.png" alt="" class="product__img">
+                        <p class="text__product">Молочко NAN 3 800 г с 12 месяцев</p>
+                        <div class="price__product">
+                            <div class="price">
+                                <p class="new__price">751 ₽</p>
+                                <p class="old__price">939 ₽</p>
+                            </div>
+                            <div class="add__basket">
+                                <img src="./icons/Корзина2.png" alt="" class="basket__img">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="discont__favorites">
+                            <div class="card__discount">
+                                <p class="discount">-39%</p>
+                            </div>
+                            <div class="favorites">
+                                <img src="./icons/Избранное2.svg" alt="" class="favorites__img">
+                            </div>
+                        </div>
+                        <img src="./img/Подгузники.png" alt="" class="product__img">
+                        <p class="text__product">Подгузники Huggies Elite Soft для новорожденных</p>
+                        <div class="price__product">
+                            <div class="price">
+                                <p class="new__price">1 375 ₽</p>
+                                <p class="old__price">2 500 ₽</p>
+                            </div>
+                            <div class="add__basket">
+                                <img src="./icons/Корзина2.png" alt="" class="basket__img">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="button__recommendations-arrow-right">
+                    <img src="./icons/Стрелка в право.png" alt="" class="button__recommendations-right">
+                </div>
+            </div>
+            <div class="famous__brands">
+                <h1 class="famous__brands__text">ИЗВЕСТНЫЕ БРЕНДЫ</h1>
+                <div class="cards__brends">
+                    <div class="card__brend">
+                        <img src="./img/KREISS.png" alt="" class="brend__img">
+                        <h1 class="title__brend">KREISS</h1>
+                    </div>
+                    <div class="card__brend">
+                        <img src="./img/Моё солнышко.png" alt="" class="brend__img">
+                        <h1 class="title__brend">Моё солнышко</h1>
+                    </div>
+                    <div class="card__brend">
+                        <img src="./img/Babyton.png" alt="" class="brend__img">
+                        <h1 class="title__brend">Babyton</h1>
+                    </div>
+                    <div class="card__brend">
+                        <img src="./img/MANU.png" alt="" class="brend__img">
+                        <h1 class="title__brend">MANU</h1>
+                    </div>
+                    <div class="card__brend">
+                        <img src="./img/GooJitZu.png" alt="" class="brend__img">
+                        <h1 class="title__brend">GooJitZu</h1>
+                    </div>
+                    <div class="card__brend">
+                        <img src="./img/Infinity Nado.png" alt="" class="brend__img">
+                        <h1 class="title__brend">Infinity Nado</h1>
+                    </div>
+                    <div class="card__brend">
+                        <img src="./img/ФрутоНяня.png" alt="" class="brend__img">
+                        <h1 class="title__brend">ФрутоНяня</h1>
+                    </div>
+                    <div class="card__brend">
+                        <img src="./img/Huggies.png" alt="" class="brend__img">
+                        <h1 class="title__brend">Huggies</h1>
+                    </div>
+                    <div class="card__brend">
+                        <img src="./img/Pampers.png" alt="" class="brend__img">
+                        <h1 class="title__brend">Pampers</h1>
+                    </div>
+                    <div class="card__brend">
+                        <img src="./img/Demil Star.png" alt="" class="brend__img">
+                        <h1 class="title__brend">Demil Star</h1>
+                    </div>
+                    <div class="card__brend">
+                        <img src="./img/Futurino.png" alt="" class="brend__img">
+                        <h1 class="title__brend">Futurino</h1>
+                    </div>
+                    <div class="card__brend">
+                        <img src="./img/reima.png" alt="" class="brend__img">
+                        <h1 class="title__brend">Reima</h1>
+                    </div>
+                </div>
+            </div>
+            <div class="apply__job">
+                <h1 id="work" class="title__apply__job">УСТРОИТЬСЯ НА РАБОТУ</h1>
+                <div class="input__apply__job">
+                    <input type="text" placeholder="ФИО" class="input__info">
+                    <input type="text" placeholder="Контактный телефон" class="input__info">
+                    <input type="text" placeholder="Email" class="input__info">
+                    <div class="button__send">
+                        <p class="text__button">Отправить</p>
+                    </div>
+                </div>
+            </div>
+            <div class="facts__aboutus">
+                <div class="facts">
+                    <div class="fact">
+                        <img src="./icons/Корм.svg" alt="" class="fact__img">
+                        <p class="fact__text"> Доля СТМ Компании в категории «Товары для животных», о запуске которых «Детский мир» объявил в 2022 году, составила 10,1%.</p>
+                    </div>
+                    <div class="fact">
+                        <img src="./icons/Плюшевая игрушка.svg" alt="" class="fact__img">
+                        <p class="fact__text">Доля СТМ в категории «Игрушки» выросла на 9,6 п.п. до 40% с начала года.</p>
+                    </div>
+                    <div class="fact">
+                        <img src="./icons/Майки.svg" alt="" class="fact__img">
+                        <p class="fact__text">Продажи собственных брендов «Одежды и Обуви» достигли 98,8% от выручки, увеличившись на 1,6 п.п. с начала 2022 года. Доля СТМ Компании в категории «Товары для животных», о запуске которых «Детский мир» объявил в 2022 году, составила 10,1%.</p>
+                    </div>
+                    <div class="fact">
+                        <img src="./icons/Подгузник.svg" alt="" class="fact__img">
+                        <p class="fact__text">Доля собственных торговых марок (СТМ) в категории «Подгузники» увеличилась более чем в 2 раза по отношению к аналогичному показателю, зафиксированному в 2021 году, и составила 33,2%.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="directors__comment">
+                <p class="directors__comment__text">«Развитие собственных торговых марок – важное стратегическое направление Группы компаний «Детский мир». Мы ежегодно расширяем линейку частных брендов, тем самым поддерживая конкурентные цены и предоставляя нашим покупателям широкий ассортимент самых востребованных товаров. Сегодня мы отмечаем уверенный рост продаж товаров эксклюзивных брендов. По итогам первого квартала 2022 года объем продаж собственных торговых марок и прямого импорта в России составил 44,8% (+4,3 п.п. год к году) и мы видим положительную динамику по этому направлению и во втором квартале», - <a class="directors__comment__text__bold"> прокомментировала Эльвира Какуркина, коммерческий директор по направлению «Товары народного потребления» ГК «Детский мир».</a></p>
+            </div>
+        </main>
+    </div>
+    <div class="line"></div>
+    <div class="wrapper">
+        <footer>
+            <div class="links">
+                <div class="link">
+                    <h2 class="title__online__store">ИНТЕРНЕТ-МАГАЗИН</h2>
+                    <ul class="footer__online__store">
+                        <li>О магазине</li>
+                        <li>Доставка и оплата</li>
+                        <li>Обмен и возврат товара</li>
+                        <li>Правила продажи</li>
+                        <li>5 причин покупать у нас</li>
+                    </ul>
+                </div>
+                <div class="link">
+                    <h2 class="title__online__store">КОРПОРАТИВНЫЙ БЛОК</h2>
+                    <ul class="footer__online__store">
+                        <li class="">О компании</li>
+                        <li class="">Раскрытие информации</li>
+                        <li class="">Инвесторам</li>
+                        <li class="">Пресс-центр</li>
+                    </ul>
+                </div>
+                <div class="link">
+                    <h2 class="title__online__store">КОНТАКТЫ</h2>
+                    <ul class="footer__online__store">
+                        <li>Email: shop@detmir.ru</li>
+                    </ul>
+                    <div class="social__media">
+                        <a href="https://vk.com/detmir" class="link__social__media"><img src="./img/VK.png" alt=""></a>
+                        <a href="https://t.me/detmir_shop" class="link__social__media"><img src="./img/Telegram.png" alt=""></a>
+                        <a href="https://www.youtube.com/@detmirtv" class="link__social__media"><img src="./img/Youtube.png" alt=""></a>
+                    </div>
+                </div>
+            </div>
+            <div class="footer__info">
+                <div class="footer__logo__link">
+                <img src="./icons/Logo.svg" alt="" class="logo">
+                <p class="jm">© 1996—2022 Группа компаний «Детский мир»</p>
+                <a href="https://www.detmir.ru/pages/terms-and-conditions/" class="lcus">Правовые условия пользования сайтом</a>
+            </div>
+            <div class="address__phone">
+                <p class="adres__text">Адрес: 127238 г. Москва, 3-й Нижнелихоборский пр-д, 3, стр. 6</p>
+                <p class="phon__text">Тел.: (495) 781-08-08 доб. 20-00 (секретариат)</p>
+                <p class="phon__text">8 (800) 250-00-00 — Единая справочная служба (звонок по РФ бесплатный)</p>
+            </div>
+            </div>
+        </footer>
+    </div>
+</body>
+</html>
